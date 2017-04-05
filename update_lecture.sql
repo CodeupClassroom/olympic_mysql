@@ -1,9 +1,9 @@
-=================================UPDATE STATEMENTS (UPDATE)
+-- =================================UPDATE STATEMENTS (UPDATE)
 
 
 -- Update values 
 
-**Test alerterations first with SELECT statements** 
+-- **Test alerterations first with SELECT statements** 
 
 #Updating a single record
 UPDATE books
@@ -16,8 +16,7 @@ UPDATE books
 SET author = "Steve"
 WHERE author != "Bob";
 
-
-#Update multiple values for multiple columns for a single value
+ #Update multiple values for multiple columns for a single value
 UPDATE books
 SET author = "Steve", title = "The Facts of Life"
 WHERE id = 1;
