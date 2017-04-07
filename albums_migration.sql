@@ -9,6 +9,7 @@ CREATE TABLE albums (
     release_date DATE,
     sales DECIMAL(12,2) NOT NULL DEFAULT 0, 
     genre CHAR(255) NOT NULL DEFAULT 'UNKNOWN',
+
     PRIMARY KEY (id)
 );
 
